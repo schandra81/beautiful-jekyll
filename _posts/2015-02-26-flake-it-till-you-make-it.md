@@ -15,6 +15,4 @@ A soulful notion of success rests on the actualization of our innate image. Succ
 ```xml
 <test>Expectation</test>
 ```
-```csharp
-public string temp = "sss";
-```
+
