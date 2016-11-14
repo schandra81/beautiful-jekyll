@@ -1,7 +1,9 @@
 ---
 layout: post
-published: false
+published: true
 title: Running Multiple threads in queue using BlockingCollections
+subtitle: Continuously running different tasks one by one with a Queue mechanism.
+date: '2016-10-12'
 ---
 My program has 3 functions. Each function takes a list of Items and fill certain information. For example
 
