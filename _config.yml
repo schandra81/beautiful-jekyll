@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Techlancer - Technology Consulting and Freelancing
+title: Techlancer
 
 # Short description of your site
-description: A Developer''s blog on C#, ASP.NET, Microsoft BI, Amazon MWS and eBay Api 
+description: Technology Consulting and Freelancing. Blog on C#, ASP.NET, Microsoft BI, Amazon MWS and eBay Api
 
 # --- Navigation bar options --- #
 
