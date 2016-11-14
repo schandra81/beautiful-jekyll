@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: Techlancer - Technology Consulting and Freelancing
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: A Developer''s blog on C#, ASP.NET, Microsoft BI, Amazon MWS and eBay Api 
 
 # --- Navigation bar options --- #
 
@@ -59,7 +59,7 @@ footer-links-active:
   rss: false
   facebook: true
   email: true
-  twitter: true
+  twitter: false
   google-plus: false
   github: true
   reddit: false
@@ -73,14 +73,14 @@ footer-links-active:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
+  twitter: false
   facebook: true
   google: false
   linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "Techlancer.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
@@ -99,7 +99,7 @@ excerpt_length: 50
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/Chicago"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
