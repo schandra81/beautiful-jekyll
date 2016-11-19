@@ -1,7 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: Kill a Running PHP Cron Job
+date: '2015-11-21'
 ---
 If you started a long-running PHP script as a cron job and wish to terminate it for whatever reason.  Here is what you can do.
 ## Step 1: Run the following command to find the Process ID
