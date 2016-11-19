@@ -45,7 +45,7 @@ Note that there is a whole blank line between the HTTP headers and the start of 
 
 You have to fix the MWS PHP Libraries by simply adding two characters, which tells the code to just split on the first occurrence of the two newlines. This correctly parses the response and makes everything work normal.
 
-For those who need to fix the same thing, simply modify line 687 in Client.php. Change
+simply modify line 687 in Client.php. Change
 
 ```
 $responseComponents = preg_split("/(?:\r?\n){2}/", $response);
