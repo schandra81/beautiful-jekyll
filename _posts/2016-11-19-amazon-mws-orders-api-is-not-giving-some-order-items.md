@@ -52,8 +52,7 @@ $responseComponents = preg_split("/(?:\r?\n){2}/", $response);
 ```
 
 to
+
 ```
 $responseComponents = preg_split("/(?:\r?\n){2}/", $response, 2);
 ```
-
-
