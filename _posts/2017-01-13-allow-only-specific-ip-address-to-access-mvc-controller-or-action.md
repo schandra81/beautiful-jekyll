@@ -52,10 +52,7 @@ namespace AddressAccessFiltering
 }  
 ```
 
-```
-### Note
-This simple example only check the list of IP addresses listed in config file. If you want check IP range you will have to extend the logic of IP address validation. 
-```
+>This simple example only check the list of IP addresses listed in config file. If you want check IP range you will have to extend the logic of IP address validation. 
 
 Now, to apply this validation you just need to add attribute to a controller in case you want to check request to all actions in a controller
 
