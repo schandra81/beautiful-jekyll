@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Allow only specific ip address to access MVC Controller or Action
-date: '2016-01-02'
+date: '2016-12-02'
 ---
 When you are developing a back-end web application, you might want to restrict access only to people who are working in the company which is maintaining the content or any other operations in the back-end and allowing public access only for the public, usually read-only content.
 
@@ -69,6 +69,3 @@ public class PubllicController : ApiController
     }
 ```
 This becomes really handy in case you have Web API which is public, but you want to expose only certain methods to public users and allow only specific for "in house" user which come from specific network.
-
-
-    
