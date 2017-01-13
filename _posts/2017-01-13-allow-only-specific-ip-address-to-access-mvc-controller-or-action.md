@@ -13,12 +13,15 @@ MVC makes it really easy to achieve this. As you know, any controller or action 
 In the following code is a simple example how to make your own custom attribute.
 
 To make allowed IP addresses more manageable, we are going to store them in web.config file as comma separated values as following
+
 ```xml
 <appSettings>  
   <add value="127.0.0.1,192.168.0.1,192.168.0.104" key="AllowedIPAddresses" />  
 </appSettings>
 ```
+
 And now to do the magic with custom attribute. In case that IP address of the client machine which initiated request is not valid, 403 status code (Forbidden) will be returned back to client in response.
+
 ```csharp
 namespace AddressAccessFiltering  
 {
@@ -48,16 +51,20 @@ namespace AddressAccessFiltering
     }  
 }  
 ```
-=== This simple example only check the list of IP addresses listed in config file. If you want check IP range you will have to extend the logic of IP address validation. 
+
+# This simple example only check the list of IP addresses listed in config file. If you want check IP range you will have to extend the logic of IP address validation. 
 
 Now, to apply this validation you just need to add attribute to a controller in case you want to check request to all actions in a controller
+
 ```csharp
 [AuthorizeIPAddress]  
 public class AddressFilteredController : ApiController
 {  
 }  
 ```
+
 In case you want to secure only one action, apply attribute to only that specific action
+
 ```csharp
 public class PubllicController : ApiController
     {
@@ -68,4 +75,5 @@ public class PubllicController : ApiController
         }
     }
 ```
+
 This becomes really handy in case you have Web API which is public, but you want to expose only certain methods to public users and allow only specific for "in house" user which come from specific network.
